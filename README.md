@@ -26,17 +26,21 @@ This Banking Management System is a console-based application developed in Java.
    - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows)
    - [Eclipse](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2024-06/R/eclipse-inst-jre-win64.exe)
    - [NetBeans](https://netbeans.apache.org/front/main/download/index.html)
-3. JDBC for database connectivity
-4. My Sql workbench for database.
+3. My Sql workbench for database.
    - [MySQL](https://downloads.mysql.com/archives/installer/)
+4. JDBC/ My SQL connector :
+   - Install My SQL connector/J(JDBC Driver) from [MySQL Website](https://dev.mysql.com/downloads/installer/)
 5. Git for cloning the repository.
    - Install from Git's latest version.
+6. Add MySQL connector/J to the project structure in IntelliJ IDEA :
+   - Navigate through project Structure -> Modules -> Dependencies
+   - Add a downloaded MySQL connector .jar file
 
 ### Installation
 
 1. **Clone the repository:**
     ```sh
-    git clone [https://github.com/Siri079/Bank-management.git](https://github.com/Siri079/Bank_Management.git)
+    git clone https://github.com/Siri079/Bank-management.git
     ```
 2. **Navigate to the project directory:**
     ```sh
